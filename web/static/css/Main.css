@@ -1,0 +1,417 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.main-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbff4f; }
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column_1 {
+     display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.main-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1060px;
+  flex-shrink: 0; }
+
+.main-group {
+  display: flex;
+  flex-direction: column;
+  background-color: #233dff; }
+
+.main-group.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex {
+  display: flex; }
+
+.main-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 35px; }
+
+.main-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 315px; }
+
+.main-image {
+  background: var(--src) center center/contain no-repeat; }
+
+.main-image.layout {
+  position: relative;
+  height: 154px;
+  margin: 11px 0px 0px; }
+
+.main-flex-spacer {
+  flex: 0 1 147px; }
+
+.main-flex-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 77px; }
+
+.main-block1 {
+  display: flex;
+  flex-direction: column; }
+
+.main-block1.layout {
+  position: relative;
+  height: 32px;
+  margin: 77px 0px 56px; }
+
+.main-medium-title {
+  font: 500 26px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.main-medium-title.layout {
+  position: absolute;
+  top: 0px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
+
+.main-line {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.298039);
+  border-radius: 1px; }
+
+.main-line.layout {
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  left: -7px;
+  right: -4px; }
+
+.main-flex-spacer1 {
+  flex: 0 1 273px; }
+
+.main-medium-title1-box.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 77px 0px 56px; }
+
+.main-medium-title1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 500 26px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.main-flex-spacer2 {
+  flex: 0 1 274px; }
+
+.main-medium-title.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 77px 157px 56px 0px; }
+
+.main-big-title {
+  font: 600 32px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.298039);
+  letter-spacing: 0px; }
+
+.main-big-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 88.1%;
+  margin: 81px auto 0px;
+  padding-left: 100px;
+  }
+
+.main-flex1 {
+  display: flex;
+    justify-content: center;
+  }
+
+.main-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 90.74%;
+  margin: 31px auto 0px; }
+
+.main-flex1-spacer {
+  flex: 0 1 116px; }
+
+.main-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1 1 215px; }
+
+.main-medium-title2-box {
+  display: flex;
+  justify-content: center; }
+
+.main-medium-title2-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 90px 0px 126px; }
+
+.main-medium-title2 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.298039);
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.main-flex2 {
+  display: flex; }
+
+.main-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 57.8%;
+  margin: 90px auto 0px; }
+
+.main-big-title.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex2-spacer {
+  flex: 0 1 319px; }
+
+.main-big-title.layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3 {
+  display: flex; }
+
+.main-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 57.54%;
+  margin: 11px auto 0px; }
+
+.main-medium-title21 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title21.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3-spacer {
+  flex: 0 1 476px; }
+
+.main-medium-title22 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title22.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 57.54%;
+  margin: 7px auto 0px; }
+
+.main-medium-title23 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title23.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3-spacer1 {
+  flex: 0 1 462px; }
+
+.main-medium-title24 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title24.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3.layout2 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 57.54%;
+  margin: 7px auto 0px; }
+
+.main-medium-title25 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title25.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3-spacer2 {
+  flex: 0 1 407px; }
+
+.main-medium-title26 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title26.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3.layout3 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 57.54%;
+  margin: 7px auto 0px; }
+
+.main-medium-title27 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title27.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3-spacer3 {
+  flex: 0 1 502px; }
+
+.main-medium-title28 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title28.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3.layout4 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 57.54%;
+  margin: 7px auto 0px; }
+
+.main-medium-title29 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title29.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-flex3-spacer4 {
+  flex: 0 1 468px; }
+
+.main-medium-title210 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.main-medium-title210.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.main-highlights1 {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 16px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  text-align: right;
+  letter-spacing: 0px;
+  opacity: 0.44; }
+
+.main-highlights1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 27px 20px 20px; }

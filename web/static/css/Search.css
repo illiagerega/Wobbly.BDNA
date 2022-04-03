@@ -1,0 +1,217 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.search-group {
+  display: flex;
+  flex-direction: column; }
+
+.search-group.layout2 {
+  position: relative; }
+
+.search-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbff4f; }
+
+.search-block.layout {
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+  min-height: 1060px;
+  flex-shrink: 0; }
+
+.search-group1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #233dff; }
+
+.search-group1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.search-flex {
+  display: flex; }
+
+.search-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 35px; }
+
+.search-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 315px; }
+
+.search-image {
+  background: var(--src) center center/contain no-repeat; }
+
+.search-image.layout {
+  position: relative;
+  height: 154px;
+  margin: 11px 0px 0px; }
+
+.search-flex-spacer {
+  flex: 0 1 147px; }
+
+.search-flex-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 77px; }
+
+.search-block1 {
+  display: flex;
+  flex-direction: column; }
+
+.search-block1.layout {
+  position: relative;
+  height: 32px;
+  margin: 77px 0px 56px; }
+
+.search-medium-title {
+  font: 500 26px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.search-medium-title.layout {
+  position: absolute;
+  top: 0px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
+
+.search-line {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.298039);
+  border-radius: 1px; }
+
+.search-line.layout {
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  left: 337px;
+  right: -370px; }
+
+.search-flex-spacer1 {
+  flex: 0 1 273px; }
+
+.search-medium-title1-box.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 77px 0px 56px; }
+
+.search-medium-title1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 500 26px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.search-flex-spacer2 {
+  flex: 0 1 274px; }
+
+.search-medium-title.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 77px 157px 56px 0px; }
+
+.search-group.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 67.79%;
+  margin: 80px 26.92% 0px 5.29%; }
+
+.search-flex1 {
+  display: flex; }
+
+.search-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 20px; }
+
+.search-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1 1 985px; }
+
+.search-group.layout {
+  position: relative;
+  height: 77px;
+  margin: 0px 0px 254px 328px; }
+
+.search-box1 {
+  background-color: rgba(196, 196, 196, 0);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.247059);
+  border: 2.5px solid black;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0; }
+
+.search-box1.layout {
+  position: absolute;
+  top: 0px;
+  height: 77px;
+  left: 0px;
+  right: 0px; }
+
+.search-icon {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.search-highlights {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 16px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  text-align: right;
+  letter-spacing: 0px;
+  opacity: 0.44; }
+
+.search-highlights.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 440px 20px 20px; }
+
+.search-medium-title11-box.layout {
+  position: absolute;
+  top: 320px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 480px;
+  left: 0px;
+  right: 0px;
+  width: 67.79%;
+  margin: 0px 26.92% 0px 5.29%; }
+
+.search-medium-title11 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }

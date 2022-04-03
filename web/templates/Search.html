@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<!--  This source code is exported from pxCode, you can get more document from https://www.pxcode.io  -->
+<head>
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/Search.css"/>
+
+    <script
+            type="text/javascript"
+            src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+    ></script>
+    <script
+            type="text/javascript"
+            src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/px2code/posize/build/v1.00.3.js"></script>
+</head>
+
+<body style="display: flex; flex-direction: column">
+<div class="search search-group layout2">
+    <div class="search-block layout">
+        <div class="search-group1 layout">
+            <div class="search-flex layout">
+                <div class="search-flex-item">
+                    <div
+                            style="--src:url(/static/assets/cf5a934cda5d794efade3fdf41ae6608.png)"
+                            class="search-image layout"
+                    ></div>
+                </div>
+                <div class="search-flex-spacer"></div>
+                <div class="search-flex-item1" onclick="location.href='/';" style="cursor: pointer">
+                    <div class="search-block1 layout">
+                        <h2 class="search-medium-title layout">Home</h2>
+                    </div>
+                </div>
+                <div class="search-flex-spacer1"></div>
+                <h2 class="search-medium-title1-box layout">
+              <pre class="search-medium-title1">
+Search
+</pre
+>
+                </h2>
+                <div class="search-flex-spacer2"></div>
+                <h2 class="search-medium-title layout1">About us</h2>
+            </div>
+        </div>
+        <div style="display: flex;margin-top: 100px;justify-content: space-around;">
+            <form enctype="multipart/form-data" method="post" action="/search">
+                <div class="header_input" style="margin-right: 50px;">
+                    <input type="text" name='search' placeholder="Поиск"/>
+                    <input type="submit" hidden/>
+                </div>
+            </form>
+        </div>
+        <h5 class="search-highlights layout">
+            RUSSIAN WARSHIP GO F**K YOURSELF
+        </h5>
+    </div>
+    <h2 class="search-medium-title11-box layout">
+        {%if result%}
+        {%for i in result%}
+        <pre class="search-medium-title11" style="margin-top: 5px; cursor: pointer;" onclick="location.href='{{i[2]}}';">{{i[2]}}</pre>
+        {%endfor%}
+        {%endif%}
+    </h2>
+</div>
+<script type="text/javascript">
+      AOS.init();
+
+</script>
+</body>
+</html>
